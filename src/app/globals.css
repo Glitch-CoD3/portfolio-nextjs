@@ -1,0 +1,266 @@
+@import "tailwindcss";
+
+/* global css */
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #121212;  /* dark background */
+  color: #ffffff;             /* white text */
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #60a5fa;  /* link color */
+  text-decoration: none;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+
+
+
+
+
+.main-container {
+  @apply bg-black max-w-[1200px] min-h-screen flex justify-center mx-auto gap-6 mt-0;
+}
+
+
+
+
+
+/* sidebar css  */
+.sidebar {
+    @apply sticky top-6 w-[320px] h-[800px] bg-[#2a2a2a] text-[rgb(224,224,224)] rounded-lg border-[1px] border-gray-500 ;
+    box-shadow: 8px 8px 5px rgba(224,224,224, 0.2);
+}
+.profile {
+    @apply pt-8;
+}
+
+/* hover:scale-105 transition-transform duration-700 ease-in-out  */
+
+.profile img {
+    @apply rounded-full mx-auto border border-black;
+}
+
+/* .profile img:hover {
+  content: url("/Images/img.jpg");
+} */
+
+.profile h1{
+    @apply flex justify-center font-sans mt-3 text-xl font-bold text-[#e0e0e0];
+}
+
+.profile p {
+    @apply mx-auto flex justify-center w-1/2 font-sans bg-gray-800 text-[#F5F935] text-sm  mt-4 rounded-md border-[1px] border-[#3a3a3a];
+}
+
+.resume {
+    @apply mx-auto flex justify-center mt-4;
+}
+.link {
+    @apply bg-black font-sans text-sm text-white px-4 rounded-md border-amber-300 border-2 font-semibold  hover:decoration-0;
+}
+
+.profile_hr{
+    @apply w-[80%] m-auto mt-8 mb-6 border-gray-400;
+}
+
+
+.label {
+    @apply text-[#a0a0a0] font-semibold font-sans text-[0.8rem] mt-2;
+}
+.value {
+    @apply  text-[#e0e0e0] font-bold text-sm font-sans ;
+}
+
+.contact_hr {
+    @apply w-[90%]  mt-6 border-gray-400;
+}
+
+
+
+
+
+.content-bar {
+    @apply  w-[600px] min-h-[700px] bg-[#2a2a2a] text-[#e0e0e0] rounded-lg border-[1px] border-gray-500 shadow-xl;
+}
+
+
+
+/*.............. navbar css ............*/
+.navigation nav {
+    @apply flex justify-end gap-6 pb-4 border-b-[1px] border-gray-500;
+}
+nav a{
+@apply text-sm font-semibold text-[#a0a0a0] mt-5 font-sans hover:text-[#F5F935] transition-all duration-300 ease-in-out;
+}
+.active {
+    @apply text-[#F5F935] ;
+}
+
+
+.nav-bar{
+    @apply px-5 sticky top-0 bg-[#2a2a2a] z-20 w-full;
+}
+
+
+
+/* ABOUT SECTION CSS  */
+
+#about {
+    @apply my-6 font-sans text-[#a0a0a0];
+}
+
+.heading {
+    @apply text-2xl font-semibold text-[#e0e0e0];
+}
+
+.line {
+    @apply mt-3 mb-1 w-16 h-1 bg-[#F5F935] ;
+}
+
+
+
+#about p {
+    @apply text-justify mt-2 hover:text-white transition-colors  duration-700 ease-in-out;
+}
+
+
+/* Skill SECTION CSS  */
+
+#skill {
+    @apply my-6 font-sans text-[#a0a0a0];
+}
+
+
+.item-container {
+    @apply flex flex-wrap gap-4 items-center mt-4;
+}
+.item {
+    @apply flex flex-col items-center justify-center w-[172px] h-32 bg-black rounded-lg border-[1px] border-[#a0a0a0] shadow-md shadow-gray-700  hover:scale-110 transition-all duration-700  ease-in-out;
+            
+}
+
+.item img {
+    @apply flex justify-center items-center w-12 h-auto mb-4;
+    filter:invert(88%) sepia(71%) saturate(538%) hue-rotate(1deg) brightness(100%) contrast(95%);
+}
+
+.item h3 {
+    @apply font-sans font-semibold;
+}
+
+
+/* Education section css  */
+
+#education {
+    @apply font-sans text-[#a0a0a0] my-8 ;
+}
+
+.edTech {
+    @apply mt-6 pl-6 relative;
+}
+
+.year {
+    @apply text-sm;
+}
+
+.eduFirst, .eduSecond {
+    @apply mt-3 mb-5 relative ;
+}
+.edTech h3 {
+    @apply my-2 text-[#e0e0e0] font-sans font-semibold ;
+}
+
+.college {
+    @apply italic mb-2 text-sm;
+
+}
+
+
+
+.round {
+  @apply w-4 h-4 rounded-full border-[3px] border-[#F5F935] absolute top-1 -left-6 z-10 bg-black;
+}
+
+.liner {
+    @apply w-0 absolute top-2 bottom-0 border-[1px] border-[#828181] left-[7px];
+}
+
+
+
+/* portfolio css  */
+#portfolio {
+    @apply font-sans text-[#a0a0a0] my-6;
+}
+
+.projects {
+    @apply flex flex-wrap justify-evenly gap-4 mt-3;
+}
+
+
+
+/* Card css  */
+.card {
+    @apply w-[260px] h-auto bg-[#000000] mt-2 rounded-xl font-sans text-[#a0a0a0] shadow-md shadow-gray-700 hover:scale-105 transition-all duration-700  ease-in-out;
+}
+.card img {
+    @apply w-[260px] h-[150px] rounded-xl;
+}
+
+.footer {
+    @apply ml-1 mt-2;
+}
+
+.footer h2 {
+    @apply text-lg font-bold text-[#e0e0e0] mb-1;
+}
+
+.footer p {
+    @apply pb-2;
+}
+
+.language {
+    @apply pb-4 gap-1 flex justify-center;
+}
+
+.footer span {
+    @apply px-2 py-1 text-[#F5F935] rounded-lg font-semibold bg-[#2a2a2a] text-sm;
+}
+
+
+
+
+
+
+
+
+/* Social contacts icons css  */
+
+.social_media {
+    @apply flex mt-6 gap-2 justify-center -ml-8 ;
+}
+.github {
+    @apply w-8 h-auto hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+    
+}
+.linkedin {
+    @apply w-8  h-auto hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+}
+.facebook {
+    @apply w-8 h-auto  hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+}
+.youtube {
+    @apply w-8 h-auto   hover:scale-110 transition-all duration-300  ease-in-out;
+    filter: grayscale(1) invert(0.7);
+}
