@@ -5,7 +5,7 @@ export default function Navigation() {
     <>
       <div className='navigation'>
         <nav>
-          <Link className='active' href="/">About</Link>
+          <Link className='active' href="/">Home</Link>
           <Link href="/skills">Skills</Link>
           <Link href="/education">Education</Link>
           <Link href="/projects">Projects</Link>

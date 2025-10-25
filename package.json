@@ -20,5 +20,12 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.6",
     "tailwindcss": "^4"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "material-icon-theme.languages.associations": {
+    "javascriptreact": "javascript"
   }
 }

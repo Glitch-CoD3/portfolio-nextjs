@@ -5,8 +5,13 @@ import Home from "./page";
 import Sidebar from "@/Components/sidebar/sidebar";
 
 export const metadata = {
-  title: "Introduce Me",
-  description: "All about juel rana",
+  title: {
+    template: "%s | JUEL-RANA",
+    default: "Home | JUEL-RANA",
+  },
+  description: {
+    default: "Welcome to my portfolio website showcasing my skills, education, and projects.",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -40,3 +45,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
