@@ -10,6 +10,7 @@ export default function Navigation() {
           <Link href="/education">Education</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/contact">Contact</Link>
+          <Link href="/Surpraise">Surpraise</Link>
 
         </nav>
       </div>
