@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "img": "/Images/portfolio.jpeg",
+    "title": "My Portfolio",
+    "des": "Everything About me! Showcasing my skills and projects.",
+    "lang": ["HTML", "CSS", "JavaScript", "React"],
+    "visit": "https://juelrana.netlify.app/"
+  },
+  {
+    "id": 2,
+    "img": "/Images/calc.png",
+    "title": "Scientific Calculator",
+    "des": "A scientific calculator that stores all calculations in a database.",
+    "lang": ["Python", "TKinter", "Custom TK"],
+    "visit": "#"
+  },
+  {
+    "id": 3,
+    "img": "/Images/game.png",
+    "title": "The Last Ascent Game",
+    "des": "A fully open-world 3D game about surviving in the jungle.",
+    "lang": ["Unreal Engine 5", "Blender"],
+    "visit": "https://lnkd.in/p/g-9qy8Sh"
+  },
+  {
+    "id": 4,
+    "img": "/Images/educationPlatform.jpeg",
+    "title": "Online Education Platform",
+    "des": "A fully responsive online store built with modern design principles.",
+    "lang": ["CSS", "WordPress", "Customization"],
+    "visit": "https://dev-eduq.pantheonsite.io/"
+  }
+  
+]

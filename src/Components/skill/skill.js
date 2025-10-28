@@ -1,3 +1,6 @@
+import skills from "../../../public/data/skills_file.json"
+import SkillCard from "../Skill_card/SkillCard"
+
 function Skill() {
     return (
         <>
@@ -9,28 +12,13 @@ function Skill() {
                 <div className="item-container">
 
                     <div className="item">
-                        <img src="https://files.svgcdn.io/simple-icons/unrealengine.svg" alt="skills" />
-                        <h3>3D Game Developnet</h3>
-                    </div>
-                    <div className="item">
-                        <img src="https://files.svgcdn.io/simple-icons/git.svg" alt="" />
-                        <h3>Git & Github</h3>
-                    </div>
-                    <div className="item">
-                        <img src="https://files.svgcdn.io/simple-icons/html5.svg" alt="" />
-                        <h3>HTML5</h3>
-                    </div>
-                    <div className="item">
-                        <img src="https://files.svgcdn.io/simple-icons/css3.svg" alt="" />
-                        <h3>CSS3</h3>
-                    </div>
-                    <div className="item">
-                        <img src="https://files.svgcdn.io/simple-icons/javascript.svg" alt="" />
-                        <h3>JavaScript</h3>
-                    </div>
-                    <div className="item">
-                        <img src="https://files.svgcdn.io/simple-icons/react.svg" alt="" />
-                        <h3>React</h3>
+                        {
+                            skills.map(skill => (
+                                <SkillCard key={skill.id} skill={skill} />
+
+                            ))
+                        }
+
                     </div>
 
                 </div>

@@ -139,22 +139,26 @@ nav a{
     @apply my-6 font-sans text-[#a0a0a0];
 }
 
-
-.item-container {
-    @apply flex flex-wrap gap-4 items-center mt-4;
-}
 .item {
+    @apply flex flex-wrap gap-x-4 justify-center items-center;
+}
+
+
+.skillcard {
+    @apply items-center mt-4;
+}
+.inside-card {
     @apply flex flex-col items-center justify-center w-[172px] h-32 bg-black rounded-lg border-[1px] border-[#a0a0a0] shadow-md shadow-gray-700  hover:scale-110 transition-all duration-700  ease-in-out;
             
 }
 
 .item img {
-    @apply flex justify-center items-center w-12 h-auto mb-4;
+    @apply flex justify-center items-center w-12 h-auto mb-2 mt-4;
     filter:invert(88%) sepia(71%) saturate(538%) hue-rotate(1deg) brightness(100%) contrast(95%);
 }
 
-.item h3 {
-    @apply font-sans font-semibold;
+.skill-footer {
+    @apply font-sans mb-4 flex justify-center font-semibold;
 }
 
 
