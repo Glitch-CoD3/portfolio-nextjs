@@ -14,7 +14,7 @@ function Sidebar() {
                 <p>Software Developer</p>
                 <div className="resume ">
 
-                    <Link className="link" href="https://drive.google.com/file/d/12PK0mNXIGryb4sDq_ZFP5xZF8D-PTr63/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</Link>
+                    <Link className="link" href="https://1drv.ms/w/c/25bf8b0d5643ec7c/EY8oD-upz5FIv_Dhd-lSUesBcPP0RpA-cHTn1BqlWCfZnw" target="_blank" rel="noopener noreferrer">Resume</Link>
 
                 </div>
 
