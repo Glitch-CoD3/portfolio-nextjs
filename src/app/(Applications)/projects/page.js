@@ -1,4 +1,4 @@
-import Portfolio from '@/Components/portfolio/portfolio'
+import Portfolio from '../../../Components/portfolio/portfolio'
 export const metadata={
   title: "Projects"
 }

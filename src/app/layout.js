@@ -1,8 +1,8 @@
 
-import Navigation from "@/Components/navbar/navbar";
+import Navigation from "../Components/navbar/navbar";
 import "./globals.css";
 import Home from "./page";
-import Sidebar from "@/Components/sidebar/sidebar";
+import Sidebar from "../Components/sidebar/sidebar";
 
 export const metadata = {
   title: {

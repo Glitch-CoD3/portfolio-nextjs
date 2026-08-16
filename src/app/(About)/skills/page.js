@@ -1,4 +1,4 @@
-import Skill from "@/Components/skill/skill"
+import Skill from "../../../Components/skill/skill"
 
 export const metadata = {
   title: "Skills"
